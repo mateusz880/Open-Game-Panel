@@ -27,10 +27,10 @@
 #####################################################################
 
 $lang['lang_charset'] = "UTF-8";
-$lang['already_logged_in_redirecting_to_dashboard'] = "You are already logged in, redirecting to dashboard";
-$lang['logging_in'] = "Logging in";
-$lang['redirecting_in'] = "Redirecting in";
-$lang['refresh_page'] = "Refresh Page";
+$lang['already_logged_in_redirecting_to_dashboard'] = "Jesteś już zalogowany, przekierowanie do panelu sterowania";
+$lang['logging_in'] = "Logowanie ";
+$lang['redirecting_in'] = "Przekierowania do ";
+$lang['refresh_page'] = "Odświerz stronę";
 $lang['no_rights'] = "Nie masz praw dostępu do tej strony.";
 $lang['welcome'] = "Witamy";
 $lang['logout'] = "Wyloguj";
@@ -44,84 +44,84 @@ $lang['no_db_connection'] = "Nie można połączyć się z bazą danych.";
 $lang['bad_login'] = "Nieprawidłowy login i hasło do.";
 $lang['not_logged_in'] = "Nie jesteś zalogowany";
 $lang['remove_install'] = "Proszę usunąć plik install.php ze względów bezpieczeństwa.";
-$lang['agent_offline'] = "czynnik, który kontroluje ten serwer jest offline.";
+$lang['agent_offline'] = "Usługa zarządzająca danym serwerem jest niedostępna.";
 $lang['logged_in'] = "Jesteś zalogowany jako";
-$lang['delete'] = "kasuj";
-$lang['actions'] = "Actions";
-$lang['invalid_subpage'] = "Nieprawidłowy podstrony.";
-$lang['invalid_home_id'] = "ID Nieprawidłowy weszła do domu.";
+$lang['delete'] = "Usuń";
+$lang['actions'] = "Opcje";
+$lang['invalid_subpage'] = "Nieprawidłowy ID postrony.";
+$lang['invalid_home_id'] = "Nieprawidłowy ID strony.";
 $lang['note'] = "UWAGA";
 $lang['hint'] = "WSKAZÓWKA";
 $lang['yes'] = "tak";
 $lang['no'] = "nie";
 $lang['on'] = "działa";
-$lang['off'] = "nir działa";
+$lang['off'] = "nie działa";
 
 // datase vars.
-$lang['db_error_invalid_host'] = "Invalid database host entered.";
-$lang['db_error_invalid_user_and_pass'] = "Invalid database username and/or password.";
-$lang['db_error_invalid_database'] = "Invalid database.";
-$lang['db_unknown_error'] = "Unkown database error.";
+$lang['db_error_invalid_host'] = "Nieprawidłowy adres bazy.";
+$lang['db_error_invalid_user_and_pass'] = "Nieprawidłowy login lub hasło do bazy";
+$lang['db_error_invalid_database'] = "Nieprawidłowa baza danych.";
+$lang['db_unknown_error'] = "Nieznany błąd bazy danych.";
 $lang[''] = "";
 
 
 // home.php
-$lang['invalid_login_information'] = "Invalid login information entered.";
-$lang['failed_to_read_config'] = "Failed to read config file.";
-$lang['account_expired'] = "Your account has expired.";
-$lang['contact_admin_to_enable_account'] = "Contact your administrator to re-enable your account.";
-$lang['maintenance_mode_on'] = "Maintenance mode is on";
-$lang['logging_out_10'] = "Logging out in 10 seconds";
-$lang['invalid_redirect'] = "Redirecting";
+$lang['invalid_login_information'] = "Błędne dane logowania.";
+$lang['failed_to_read_config'] = "Błąd odczytu pliku konfiguracyjnego";
+$lang['account_expired'] = "Twoje konto wygasło";
+$lang['contact_admin_to_enable_account'] = "Skontaktuj się z administracją w celu odblokowania konta.";
+$lang['maintenance_mode_on'] = "Tryb konserwacji jest włączony";
+$lang['logging_out_10'] = "Wylogowanie nastąpi za 10 sekund";
+$lang['invalid_redirect'] = "Przekierowanie";
 
 // index.php
-$lang['login_title'] = "Control Panel Login";
-$lang['lang'] = "Language";
+$lang['login_title'] = "Panel sterowania - Logowanie";
+$lang['lang'] = "Języki";
 
 // includes/navig.php
-$lang['module_not_installed'] = "Module is not installed.";
+$lang['module_not_installed'] = "Moduł nie został zainstalowany.";
 
 // Common
-$lang['no_access_to_home'] = "You do not have access to this home.";
-$lang['not_available'] = "N/A";
-$lang['offline'] = "Offline";
-$lang['online'] = "Online";
-$lang['invalid_url'] = "Invalid URL";
+$lang['no_access_to_home'] = "Brak dostępu.";
+$lang['not_available'] = "Brak danych";
+$lang['offline'] = "Nie dostępny";
+$lang['online'] = "Dostępny";
+$lang['invalid_url'] = "Adres URL jest nie poprawny";
 
 // index.php
 
 $lang['register'] = "Rejestracja";
-$lang[''] = "Invalid URL";
-$lang[''] = "Invalid URL";
-$lang[''] = "Invalid URL";
+$lang[''] = "Adres URL jest nie poprawny";
+$lang[''] = "Adres URL jest nie poprawny";
+$lang[''] = "Adres URL jest nie poprawny";
 
 // User Menu
 
-$lang['gamemanager'] = "Game Manager";
-$lang['game_monitor'] = "Game Monitor";
-$lang['dashboard'] = "Dashboard";
-$lang['user_addons'] = "Addons";
+$lang['gamemanager'] = "Menadżej gier";
+$lang['game_monitor'] = "Monitor gier";
+$lang['dashboard'] = "Panel sterowania";
+$lang['user_addons'] = "Wtyczki";
 $lang['ftp'] = "FTP";
-$lang['shop'] = "Shop";
+$lang['shop'] = "Sklep";
 
 // Admin Menu
 
-$lang['administration'] = "Administration";
-$lang['config_games'] = "Game/Mod Config";
-$lang['modulemanager'] = "Modules";
-$lang['server'] = "Servers";
-$lang['settings'] = "Panel Settings";
-$lang['themes'] = "Ustawienia tematyczne";
-$lang['user_admin'] = "Users";
-$lang['sub_users'] = "Sub Users";
-$lang['show_groups'] = "Groups";
-$lang['user_games'] = "Game Servers";
-$lang['addons_manager'] = "Addons Manager";
-$lang['pure-ftpd_admin'] = "FTP users";
-$lang['orders'] = "Orders";
-$lang['services'] = "Services";
-$lang['shop_settings'] = "Shop Settings";
-$lang['update'] = "Update Panel";
+$lang['administration'] = "Administracja";
+$lang['config_games'] = "Game/Mod ustawienia";
+$lang['modulemanager'] = "Dodatki";
+$lang['server'] = "Serwery";
+$lang['settings'] = "Ustawienia panelu";
+$lang['themes'] = "Ustawienia motywu";
+$lang['user_admin'] = "Użytkownicy";
+$lang['sub_users'] = "Sub Konta";
+$lang['show_groups'] = "Grupy";
+$lang['user_games'] = "Serwery gier";
+$lang['addons_manager'] = "Menadzer wtyczek";
+$lang['pure-ftpd_admin'] = "FTP użytkownicy";
+$lang['orders'] = "Zamówienia";
+$lang['services'] = "Usługi";
+$lang['shop_settings'] = "Ustawienia sklepu";
+$lang['update'] = "Aktualizuj panel";
 
 // Server Selector
 
@@ -130,6 +130,6 @@ $lang['show_all'] = "Pokaż wszystkie serwery";
 
 // Get home path size
 
-$lang['get_size'] = "Get size";
-$lang['total_size'] = "Total size";
+$lang['get_size'] = "Pobierz rozmiar";
+$lang['total_size'] = "Łączny rozmiar";
 ?>
