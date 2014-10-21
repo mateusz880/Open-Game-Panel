@@ -118,10 +118,10 @@ $lang['show_groups'] = "Groups";
 $lang['user_games'] = "Game Servers";
 $lang['addons_manager'] = "Addons Manager";
 $lang['pure-ftpd_admin'] = "FTP users";
-$lang['orders'] = "Orders";
+$lang['orders'] = "Inne";
 $lang['services'] = "Services";
-$lang['shop_settings'] = "Shop Settings";
-$lang['update'] = "Update Panel";
+$lang['shop_settings'] = "Ustawienia Sklepu";
+$lang['update'] = "Aktualizacja panelu";
 
 // Server Selector
 
@@ -130,6 +130,6 @@ $lang['show_all'] = "Pokaż wszystkie serwery";
 
 // Get home path size
 
-$lang['get_size'] = "Get size";
-$lang['total_size'] = "Total size";
+$lang['get_size'] = "Pobierz rozmiar";
+$lang['total_size'] = "Łączny rozmiar";
 ?>
