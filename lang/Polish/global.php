@@ -54,8 +54,8 @@ $lang['note'] = "UWAGA";
 $lang['hint'] = "WSKAZÓWKA";
 $lang['yes'] = "tak";
 $lang['no'] = "nie";
-$lang['on'] = "działa";
-$lang['off'] = "nie działa";
+$lang['on'] = "włączony";
+$lang['off'] = "wyłączony";
 
 // datase vars.
 $lang['db_error_invalid_host'] = "Nieprawidłowy adres bazy.";
